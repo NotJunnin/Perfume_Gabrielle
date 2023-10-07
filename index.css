@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    text-decoration: none;
+
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+}
+.Box{
+    height: 450px;
+    width: 650px;
+    display: flex;
+}
+
+.Box .Foto img{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    object-fit: cover;
+    border-radius: 20px 0px 0px 20px;
+}
+
+.Box .Foto{
+    display: flex;
+    height: 450px;
+    width: 350px;
+}
+
+.Box .Escrita{
+    display: flex;
+    height: 450px;
+    width: 300px;
+    padding: 0 35px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+h5{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    letter-spacing: 7px;
+    font-weight: normal;
+    color: hsl(228, 12%, 48%);
+    padding-top: 30px;
+}
+
+h1{
+    font-family: 'Fraunces', serif;
+    font-size: 33px;
+    line-height: 32px;
+    color: hsl(212, 21%, 14%);
+    padding-right: 19px;
+
+}
+
+.Box  .Escrita .Centro{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 25px;
+    padding-right: 26px;
+    font-weight: normal;
+    color: hsl(228, 12%, 48%);
+}
+
+.Box  .Escrita .Preço{
+    font-family: 'Fraunces', serif;
+    font-size: 33px;
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    color: hsl(158, 36%, 37%);
+}
+
+.Box  .Escrita .Preço span{
+    font-family: 'Montserrat', serif;
+    font-size: 14px;
+    font-weight: normal;
+    text-decoration: line-through;
+    color: hsl(228, 12%, 48%);
+}
+
+.Box .Escrita a{
+    font-family: 'Montserrat', serif;
+    display: flex;
+    line-height: 50px;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-weight: bold;
+    flex-direction: row-reverse;
+    gap: 12px;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(158, 36%, 37%);
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
